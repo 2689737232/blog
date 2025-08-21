@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#007acc"/>
+  <!-- TypeScript Logo -->
+  <path d="M400 150 L550 350 L250 350 Z" fill="white"/>
+  <path d="M400 180 L450 280 L350 280 Z" fill="#007acc"/>
+  <!-- 装饰性元素 -->
+  <circle cx="150" cy="150" r="80" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="650" cy="350" r="100" fill="rgba(255,255,255,0.1)"/>
+  <!-- 文字 -->
+  <text x="400" y="420" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="white">TypeScript</text>
+</svg>

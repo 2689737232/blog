@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#764abc"/>
+  <!-- 状态流程图 -->
+  <circle cx="200" cy="250" r="80" fill="#9c27b0" stroke="white" stroke-width="3"/>
+  <circle cx="400" cy="250" r="80" fill="#673ab7" stroke="white" stroke-width="3"/>
+  <circle cx="600" cy="250" r="80" fill="#3f51b5" stroke="white" stroke-width="3"/>
+  <!-- 连接线 -->
+  <path d="M280 250 L320 250" stroke="white" stroke-width="3"/>
+  <path d="M480 250 L520 250" stroke="white" stroke-width="3"/>
+  <polygon points="320,250 305,240 305,260" fill="white"/>
+  <polygon points="520,250 505,240 505,260" fill="white"/>
+  <!-- 文字 -->
+  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="white">状态</text>
+  <text x="400" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="white">操作</text>
+  <text x="600" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="white">视图</text>
+  <text x="400" y="80" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="white">状态管理</text>
+</svg>

@@ -1,0 +1,28 @@
+.footer {
+  margin-top: $margin-primary;
+  border: $line-secondary $color-text-primary solid;
+  background-color: $color-background-secondary;
+  padding: $padding-primary;
+}
+.footer .footer-text {
+  margin-top: $margin-l-1;
+  margin-bottom: $margin-primary;
+  text-align: center;
+  line-height: 1.8em;
+}
+.footer .footer-text::before {
+  content: '"';
+  font-size: 2em;
+  color: $color-text-secondary;
+  opacity: 0.3;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  transform: rotate(-10deg);
+}
+.footer .footer-text::after {
+  content: '✦';
+  font-size: 1.2em;
+  color: $color-text-secondary;
+  margin-left: 5px;
+}
